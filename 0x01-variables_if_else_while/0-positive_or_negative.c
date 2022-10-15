@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /*
-* Main - Entry point 
+* Main - Entry point
 * Desciption: Print if or else statement
 * Return: Always 0 (success)
 */
