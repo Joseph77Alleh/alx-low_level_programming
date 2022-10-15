@@ -3,7 +3,7 @@
 #include <time.h>
 /*
 * Main - Entry point
-* Desciption: Print if or else statement
+* Desciption: Print positive or negative in stored variables
 * Return: Always 0 (success)
 */
 int main(void)
