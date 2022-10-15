@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /*
-* main - entry point 
+* Main - Entry point 
 * Desciption: Print if or else statement
 * Return: Always 0 (success)
 */
@@ -16,7 +16,7 @@ int main(void)
 		printf("%d is positive\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
-	else     
+	else
 		printf("%d is zero\n", n);
 	return (0);
 }
