@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <stdlib.h>
 
 #include <time.h>
@@ -10,10 +11,9 @@
 /* betty style doc for function main goes there */
 /**
  * main - Entring point
- * Decription: Print a number if a number is negativeor positive
+ *
  * Return: Always 0 (success)
- * 
- */
+ * /
 
 int main(void)
 
