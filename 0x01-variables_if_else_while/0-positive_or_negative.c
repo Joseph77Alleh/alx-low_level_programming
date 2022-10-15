@@ -3,16 +3,13 @@
 #include <time.h>
 
 /*
- * main - entry point
- * 
+ * main - entry point 
  * Desciption: Print if or else statement
- *
  * Return: Always 0 (success)
 */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
