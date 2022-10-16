@@ -3,7 +3,10 @@
 #include <time.h>
 /*
 * Main - Entry point
-* Desciption: Print positive or negative in stored variables
+*
+* Positive anything is better than negative nothing
+*
+*
 * Return: Always 0 (success)
 */
 int main(void)
