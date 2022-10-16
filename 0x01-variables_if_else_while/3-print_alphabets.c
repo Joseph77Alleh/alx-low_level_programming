@@ -4,13 +4,13 @@
 /**
  * main - printing alphabets in lower case
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(void)
 {
 	char letter;
-	
-	for(letter = 'a'; letter <= 'z'; letter++)
+
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		letter = tolower(letter);
 		putchar(letter);
