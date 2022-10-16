@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
-* Main - Entry point
-*
-*
-* Return: Always 0 (success)
-*/
+
+/**
+ * main - Entry point to this program
+ *
+ * Return: Always 0 (success)
+ * Positive of anything is better than negative nothing
+ */
 int main(void)
 {
 	int n;
