@@ -12,13 +12,13 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	boolean = boolean2 = 1;
-	printf("%id, %id", n1, n2);
+	printf("%d, %d", n1, n2);
 	for (c = 0; c < 96; c++)
 	{
 		if (boolean)
 		{
 			fn = n1 + n2;
-			printf(", %id", fn);
+			printf(", %d", fn);
 			n1 = n2;
 			n2 = fn;
 		}
@@ -34,8 +34,8 @@ int main(void)
 			}
 			fn2 = (n11 + n22);
 			fn = n1 + n2 + (fn2 / 1000000000);
-			printf(", %id", fn);
-			printf("%id", fn2 % 1000000000);
+			printf(", %d", fn);
+			printf("%d", fn2 % 1000000000);
 			n1 = n2;
 			n11 = n22;
 			n2 = fn;
