@@ -6,28 +6,28 @@
  * @s: the string we look for
  * @accept: the string we compare to
  *
- * Return: unsigned int
+ * Return: number of bytes
  *
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0;
-	int j = 0;
+	unsigned int bytes = 0;
+	int i;
 
-	for (; s[i]; j++)
+	while (*s)
 	{
-		for (j = 0; accept[j]; j++)
+		for (i = 0; accept[i]; i++)
 		{
-			if (s[i] == accept[j])
+			if (accept[i] == *s)
 			{
+				bytes++;
 				break;
 			}
+			else if ((accept[i + 1]) == '\0')
+				return (bytes);
 		}
+		s++;
 
-			if (s[i] != accept[j])
-			{
-				break;
-			}
 	}
-	return (i);
+	return (bytes);
 }
